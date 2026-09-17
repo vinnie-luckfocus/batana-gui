@@ -1,3 +1,3 @@
 # qml/ — QML 界面
 
-QML 界面层：页面、可复用组件与主题。移动端（Android / iOS）与桌面/嵌入式（macOS / batana-pi 显示屏）共用同一套 QML 界面体系。
+QML 界面层：页面、可复用组件与主题。仅面向 batana-pi 显示屏（嵌入式 Linux），按嵌入式屏幕尺寸与触控交互设计；移动端 / 桌面端界面归 batana-app（Flutter），不在本仓。
