@@ -1,0 +1,45 @@
+# Qt / CMake 构建产物
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Qt Creator 用户文件
+*.user
+*.user.*
+*.autosave
+
+# qmake / moc 中间产物
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# 平台工程产物
+*.app/
+*.apk
+*.aab
+*.ipa
+android-build/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 测试产物
+*.log
+Testing/
