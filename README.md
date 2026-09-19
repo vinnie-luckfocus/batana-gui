@@ -61,6 +61,10 @@ batana-gui/
 - **P3**：嵌入式构建部署到 batana-pi（Yocto 集成）
 - **P4**：云同步
 
+## 变更记录
+
+- **2026-09-19**：新增 Qt6/QML 嵌入式 HelloWorld 骨架（根 `CMakeLists.txt` + `app/main.cpp` + `qml/Main.qml`，QML 模块 `Batana`）与构建说明 [docs/build.md](docs/build.md)。骨架按 Qt6 最低要求配为 C++17（README 技术栈中的 C++20 为目标口径，后续按需上调）。本机无 Qt6，**未本机构建验证**，待安装 Qt6 或上板后验证。
+
 ## 许可证
 
 MIT — 见 [LICENSE](LICENSE)。
